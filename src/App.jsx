@@ -1,11 +1,13 @@
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Checkout from "./pages/Checkout";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/checkout/config" element={<Checkout />} />
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/checkout" element={<Checkout />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
