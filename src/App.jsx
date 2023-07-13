@@ -5,7 +5,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/checkout/:type" element={<Checkout />} />
       </Routes>
     </BrowserRouter>
   );
