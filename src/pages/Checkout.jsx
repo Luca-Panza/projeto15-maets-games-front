@@ -42,6 +42,9 @@ const SCImageContainer = styled.div`
   justify-content: center;
 
   button {
+    font-family: "Press Start 2P";
+    font-size: 0.6rem;
+    color: white;
     width: 12rem;
     height: 3rem;
     margin-bottom: 1rem;
